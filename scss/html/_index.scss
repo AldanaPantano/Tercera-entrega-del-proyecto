@@ -1,0 +1,135 @@
+body {
+    div {
+        header {
+            .banner {
+                background-color: rgb(185, 241, 178);
+                background-image: url(../img/solen-feyissa-lDy7jcXiUnQ-unsplash.jpg);
+                background-repeat: no repeat;
+                text-align: center;
+                color: whitesmoke;
+                height: 300px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                div {
+                    .hijo-banner-1 {
+                        margin: 25px;
+                        font-size: 50px;
+                        text-shadow: 1px 1px 5px black;
+                    }
+
+                    .hijo-banner-2 {
+                        margin: 10px;
+                        font-size: 30px;
+                    }
+
+                    .hijo-banner-3 {
+                        font-size: 20px;
+                    }
+
+                    .boton {
+                        background-color: #51B0DF;
+                        color: whitesmoke;
+                        padding: 0.7rem;
+                        width: 5rem;
+                        box-shadow: 2px 2px 5px black;
+                        text-shadow: 1px 1px 5px black;
+
+                        .boton:hover {
+                            font-weight: bold;
+                            box-shadow: 2px 2px 2px rgb(112, 106, 106);
+                            transform: scale(0.9);
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        main {
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 30px;
+
+                .caja {
+                    background-color: rgba(173, 243, 132, 0.911);
+                    height: 220px;
+                    width: 220px;
+
+                    /* propiedad del margin */
+                    border: 2px solid rgb(145, 231, 96);
+                    margin: 100px 30px 50px 30px;
+                    padding: 5px;
+
+                    .img-caja {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .titulo-caja {
+                        font-size: 1.5rem;
+                        text-align: center;
+                        padding-bottom: 8%;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    }
+
+                    .parrafo-caja {
+                        color: grey;
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        text-align: center;
+                    }
+                }
+            }
+
+            section {
+                p {
+                    text-align: center;
+                    color: black;
+                    width: 100%;
+                    margin-top: 4rem;
+                    font-size: 2.5rem;
+                    text-shadow: 3px 3px 3px rgb(92, 216, 75);
+                }
+            }
+
+            .img_grid {
+                height: 950px;
+                width: 1200px;
+                margin-top: 15rem;
+                @include grid;
+
+                .imgUno {
+                    grid-area: imgUno;
+                }
+
+                .imgDos {
+                    grid-area: imgDos;
+                }
+
+                .imgTres {
+                    grid-area: imgTres;
+                }
+
+                .imgCuatro {
+                    grid-area: imgCuatro;
+                }
+
+                .imgCinco {
+                    grid-area: imgCinco;
+                }
+
+                .imgSeis {
+                    grid-area: imgSeis;
+                }
+
+                .imgSiete {
+                    grid-area: imgSiete;
+                }
+            }
+        }
+    }
+}

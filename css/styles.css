@@ -1,0 +1,169 @@
+body div header .banner {
+  background-color: #b9f1b2;
+  background-image: url(../img/solen-feyissa-lDy7jcXiUnQ-unsplash.jpg);
+  background-repeat: no repeat;
+  text-align: center;
+  color: whitesmoke;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  body div header .banner div .hijo-banner-1 {
+    margin: 25px;
+    font-size: 50px;
+    text-shadow: 1px 1px 5px black; }
+  body div header .banner div .hijo-banner-2 {
+    margin: 10px;
+    font-size: 30px; }
+  body div header .banner div .hijo-banner-3 {
+    font-size: 20px; }
+  body div header .banner div .boton {
+    background-color: #51B0DF;
+    color: whitesmoke;
+    padding: 0.7rem;
+    width: 5rem;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 1px 1px 5px black; }
+    body div header .banner div .boton .boton:hover {
+      font-weight: bold;
+      box-shadow: 2px 2px 2px #706a6a;
+      transform: scale(0.9); }
+
+body div main .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px; }
+  body div main .container .caja {
+    background-color: rgba(173, 243, 132, 0.911);
+    height: 220px;
+    width: 220px;
+    /* propiedad del margin */
+    border: 2px solid #91e760;
+    margin: 100px 30px 50px 30px;
+    padding: 5px; }
+    body div main .container .caja .img-caja {
+      display: flex;
+      justify-content: center; }
+    body div main .container .caja .titulo-caja {
+      font-size: 1.5rem;
+      text-align: center;
+      padding-bottom: 8%;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    body div main .container .caja .parrafo-caja {
+      color: grey;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center; }
+
+body div main section p {
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 3px #5cd84b; }
+
+body div main .img_grid {
+  height: 950px;
+  width: 1200px;
+  margin-top: 15rem;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, 8fr);
+  grid-template-areas: "imgCinco imgDos imgSiete" "imgTres imgSeis imgCuatro" "imgTres imgUno imgCuatro"; }
+  body div main .img_grid .imgUno {
+    grid-area: imgUno; }
+  body div main .img_grid .imgDos {
+    grid-area: imgDos; }
+  body div main .img_grid .imgTres {
+    grid-area: imgTres; }
+  body div main .img_grid .imgCuatro {
+    grid-area: imgCuatro; }
+  body div main .img_grid .imgCinco {
+    grid-area: imgCinco; }
+  body div main .img_grid .imgSeis {
+    grid-area: imgSeis; }
+  body div main .img_grid .imgSiete {
+    grid-area: imgSiete; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body div header nav ul {
+  background-color: whitesmoke;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly; }
+  body div header nav ul li a {
+    color: black;
+    text-decoration: none; }
+  body div header nav ul li a:hover {
+    font-weight: bold; }
+
+body div main .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px; }
+  body div main .container .caja {
+    background-color: rgba(173, 243, 132, 0.911);
+    height: 220px;
+    width: 220px;
+    /* propiedad del margin */
+    border: 2px solid #91e760;
+    margin: 100px 30px 50px 30px;
+    padding: 5px; }
+    body div main .container .caja .img-caja {
+      display: flex;
+      justify-content: center; }
+    body div main .container .caja .titulo-caja {
+      font-size: 1.5rem;
+      text-align: center;
+      padding-bottom: 8%;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    body div main .container .caja .parrafo-caja {
+      color: grey;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center; }
+
+body div main section p {
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 3px #5cd84b; }
+
+body div main .img_grid {
+  height: 950px;
+  width: 1200px;
+  margin-top: 15rem;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, 8fr);
+  grid-template-areas: "imgCinco imgDos imgSiete" "imgTres imgSeis imgCuatro" "imgTres imgUno imgCuatro"; }
+
+body div footer {
+  height: 200px;
+  margin-top: 30%;
+  background-color: whitesmoke; }
+  body div footer .redes-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none; }
+    body div footer .redes-footer a img:hover {
+      filter: drop-shadow(5px 5px 3px);
+      color: blue; }
+  body div footer div p {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 3%; }
+  body div footer form {
+    width: 2rem;
+    display: flex;
+    flex-direction: row; }

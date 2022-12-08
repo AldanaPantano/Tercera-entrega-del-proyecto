@@ -1,0 +1,25 @@
+//reutilizamos codigo
+
+@mixin medidas ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+@mixin flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+@mixin grid {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 8fr);
+
+    grid-template-areas:
+    "imgCinco imgDos imgSiete"
+    "imgTres imgSeis imgCuatro"
+    "imgTres imgUno imgCuatro";
+}
